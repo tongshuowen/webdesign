@@ -1,0 +1,33 @@
+.div_float{
+    background-color: wheat;
+    width: 900px;
+    height:200px;
+    margin: 0 auto;
+    overflow:auto;
+}
+
+.div_float div{
+    width: 200px;
+    height: fit-content;
+    float: left;
+    margin: 20px;
+}
+.div_float div:hover p{
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    background-image: url(./ims/冬至.jpg);
+    background-position: right bottom;
+}
+.div_float div img{
+    width: 200px;
+    
+}
+.div_float div p{
+    width: 200px;
+    height: 18px;
+    font-size: 12px;
+    text-align: center;
+    overflow:hidden;
+    font-family: 楷体;
+}
+
